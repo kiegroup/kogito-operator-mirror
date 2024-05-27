@@ -67,14 +67,14 @@ metadata:
     features.operators.openshift.io/token-auth-aws: "false"
     features.operators.openshift.io/token-auth-azure: "false"
     features.operators.openshift.io/token-auth-gcp: "false"
-    operators.openshift.io/valid-subscription: '["IBM Business Automation Manager
+    operators.openshift.io/valid-subscription: '["IBM Business Automation Manager                 
       Open Edition"]'
     operators.operatorframework.io/builder: operator-sdk-v1.21.0
     operators.operatorframework.io/project_layout: go.kubebuilder.io/v3
     repository: https://github.com/kiegroup/kogito-operator
     support: https://www.ibm.com/mysupport
     tectonic-visibility: ocs
-  name: bamoe-kogito-operator.8.0.5-1
+  name: bamoe-kogito-operator.8.0.5-2
   namespace: placeholder
 spec:
   apiservicedefinitions: {}
@@ -996,7 +996,7 @@ spec:
   - automation
   labels:
     alm-owner-kogito: bamoe-kogito-operator
-    operated-by: bamoe-kogito-operator.8.0.5-1
+    operated-by: bamoe-kogito-operator.8.0.5-2
   links:
   - name: Product Page
     url: https://ibm.com
@@ -1010,5 +1010,5 @@ spec:
   maturity: beta
   provider:
     name: IBM
-  replaces: bamoe-kogito-operator.8.0.4-2
-  version: 8.0.5-1
+  replaces: bamoe-kogito-operator.8.0.5-1
+  version: 8.0.5-2
